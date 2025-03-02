@@ -1,4 +1,8 @@
 # ELPOT
 
-Program ELPOT read the potential created by Quamtum Espresso, VASP, or Materials Studio and plot the potential in defined pathways, in 3D box, and calculate spherical harmonic expansion coefficients as well as Stevens coefficients too.
+Program ELPOT reads the potential created by Quamtum Espresso, VASP, or Materials Studio and plot the potential in defined pathways or in 3D box using spline smoothing. The program also calculates spherical harmonic expansion coefficients and Stevens coefficients.
+
+## Installation
+
+The program uses SHTOOLS library for shperical harmonics analysis. To install SHTOOLS follow 
 
