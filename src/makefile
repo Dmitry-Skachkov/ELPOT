@@ -1,9 +1,11 @@
 default: elpot
 
+SHTOOLS = "*directory with SHTOOLS library*"
+
 FC = ifx
 FFLAGS =
 FFLAGS2=-m64 -fpp -free -O3 -Tf 
-LNK=-I/jet/home/dmzzsk/SHTOOLS/include -L/jet/home/dmzzsk/SHTOOLS/lib -lSHTOOLS -L/usr/local -lfftw3 -lm -qmkl
+LNK=-I$(SHTOOLS)/include -L$(SHTOOLS)/lib -lSHTOOLS -L/usr/local -lfftw3 -lm -qmkl
 
 obj/Parameters.o: Parameters.f90
 	@mkdir -p obj
