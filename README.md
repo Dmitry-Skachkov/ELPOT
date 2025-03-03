@@ -6,7 +6,7 @@ Program ELPOT reads the potential created by Quamtum Espresso, VASP, or Material
 
 The program uses SHTOOLS library for shperical harmonics analysis. To install SHTOOLS follow https://github.com/Dmitry-Skachkov/SHTOOLS_examples 
 
-After installation of SHTOOLS correct the makefile with the directory of installed library and compile the program
+After installation of SHTOOLS correct the [makefile](src/makefile) with the directory of installed library and compile the program
 
 > make
 
