@@ -11,4 +11,10 @@ After installation of SHTOOLS, compile the program
 > make
 
 
+## Example
+
+Run the program
+
+> elpot d.elpot0.xsf
+
 
