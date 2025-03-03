@@ -17,5 +17,5 @@ Run the program
 
 > elpot d.elpot0.xsf
 
-![GitHub Logo]
+![GitHub Logo](elpot.png)
 
